@@ -1,13 +1,13 @@
 {
-  "name": "tapable",
+  "name": "@guploader/tapable",
   "version": "2.2.0",
   "author": "Tobias Koppers @sokra",
   "description": "Just a little module for plugins.",
   "license": "MIT",
-  "homepage": "https://github.com/webpack/tapable",
+  "homepage": "https://github.com/guploader/tapable",
   "repository": {
     "type": "git",
-    "url": "http://github.com/webpack/tapable.git"
+    "url": "https://github.com/guploader/tapable.git"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -16,6 +16,10 @@
     "codecov": "^3.5.0",
     "jest": "^24.8.0",
     "prettier": "^1.17.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "engines": {
     "node": ">=6"
